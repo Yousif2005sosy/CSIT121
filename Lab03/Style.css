@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(132, 188, 212);
+
+
+}
+#special {
+    background-color: rgb(255, 0, 0);
+}  
+article {
+    border: 2px solid #000000;
+    width: 500px;
+}
+.special1 {
+    background-color: rgb(41, 7, 235);
+}
+#special2 {
+    background-color: rgb(255, 255, 255);
+}
+#special1 {
+    background-color: rgb(255, 0, 0);
+}
+#special3 {
+    background-color: rgb(255, 255, 255);
+}
+#special4 {
+    background-color: rgb(255, 255, 255);
+}
+#special5 {
+    background-color: rgb(255, 255, 255);
+}
+#special6 {
+    background-color: rgb(255, 255, 255);
+}
+#special7 {
+    background-color: rgb(255, 255, 255);
+}
