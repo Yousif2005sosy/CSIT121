@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ff0000; 
+    color: #000000; 
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  header {
+    background-color: #a40a0a; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #ffffff; 
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #000000; 
+  }
+  
+  main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #c79f9f; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1); 
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #ff0000; 
+    margin-bottom: 15px;
+  }
+  
+  section p {
+    font-size: 1.1em;
+    color: #ffffff; 
+    margin-bottom: 20px;
+    line-height: 1.8;
+  }
+  
+  pre {
+    background-color: #000000;
+    color: #f8f8f2; 
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    overflow-x: auto;
+  }
+  
+ 
+  footer {
+    background-color: #004d7a; 
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer p {
+    font-size: 1em;
+    margin: 0;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header h1 {
+      font-size: 2.5em;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    main {
+      padding: 15px;
+    }
+  
+    section p {
+      font-size: 1em;
+    }
+  
+    pre {
+      font-size: 0.9em;
+    }
+  }
+  
